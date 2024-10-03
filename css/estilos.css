@@ -1,0 +1,96 @@
+body {
+	background: #f0f3f5;
+	color: hsl(0, 0%, 100%);
+}
+
+header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	background: #1b1bae;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.contenedor-main {
+	margin-bottom: 20px;
+}
+
+
+.widgets {
+	background: #f2f2f2;
+	color: #424242;
+	margin-bottom: 20px;
+}
+
+.widgets > div {
+	background: #2196f3;
+	color: #fff;
+	padding: 20px;
+}
+
+.footer {
+	background-color: #55272c; 
+    padding: 20px; 
+    color: #fff; 
+}
+
+.section-3{
+	background-color: rgb(94, 73, 164);
+	padding: 20px;
+	margin-bottom: 20px
+}
+
+.section-4{
+	background-color: rgba(182, 179, 131, 0.625);
+	padding: 20px;
+	margin-bottom: 20px
+}
+
+#descp{
+	background-color: rgba(150, 69, 69, 0.625);
+	padding: 20px;
+	margin-bottom: 20px
+}
+
+#info{
+	background-color: rgba(94, 58, 133, 0.392);
+	padding: 20px;
+	margin-bottom: 20px
+}
+
+.carousel-item {
+	height: 400px;
+	text-align: center;
+}
+
+.carousel-item img{
+	height: 400px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav a{
+	display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #1976d2;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #c0a615;
+    transform: translateY(-2px);
+}
+
+.footer span{
+	display: block;
+    margin-bottom: 5px;
+}
