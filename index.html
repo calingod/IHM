@@ -13,7 +13,7 @@
     <header class="row">
         <h1 class="col text-center">"BIENVENIDOS A MI PÁGINA"</h1>
         <nav class="col text-center">
-            <a href="#informacion" class="btn btn-link">Información Personal</a>
+            <a href="#personal" class="btn btn-link">Información Personal</a>
             <a href="#descripcion" class="btn btn-link"> Descripción </a>
             <a href="#hobbies" class="btn btn-link">Hobbies </a>
             <a href="#articulos" class="btn btn-link">Artículos</a>
@@ -22,6 +22,7 @@
 
     <div class="container">
         <div class="row" id="info">
+            <h1 class="col-md-12" id="personal">Información personal</h1>
             <section class="col-md-4 section-1" id="informacion">
                 <h1>Datos Personales</h1>
                 <p> <strong>Nombre:</strong> José Guillermo Saldaña Zumarán</p>
@@ -36,8 +37,7 @@
             </div>
             <div class="col-md-4" id="redes">
                 <h1>Mis Redes</h1>
-                <p><a href="https://github.com/calingod123" target="_blank">GitHub</a></p>
-                <p><a href="https://www.facebook.com/joseguillermo.saldanazumaran/" target="_blank">Facebook</a></p>
+                <p><a href="https://github.com/calingod" target="_blank">GitHub</a></p>
                 <p><a href="https://www.instagram.com/calin_god/" target="_blank">Instagram</a></p>
             </div>
         </div>
@@ -90,12 +90,31 @@
         </div>
         <div class="row">
             <section class="col-md-12 section-4" id="articulos">
-                <h2>ARTICULOS</h2>
+                <h2>Articulos</h2>
                 <article>
-                    <p><strong>45TH FIDE CHEES TOURMANENT "GANADORES INDIA":</strong> Es uno de los eventos más
-                        prestigiosos en el calendario del ajedrez internacional,este articulo informa como le fue al
-                        equipo de la India </p>
-                    <a href="https://www.chess.com/article/view/indias-olympiad-dominance" target="_blank">Leer mas</a>
+                    <div class="card-group">
+                        <div class="card">
+                          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6FBAJxrjjKkbChbYYUvh0DMm1ksL8VDq0xw&s" height="220"  alt="chess">
+                          <div class="card-body">
+                            <h5 class="card-title">45th FIDE CHESS CHAMPIONSHIP</h5>
+                            <p class="card-text">Uno de los torneos mas importantes del ajedrez desarrollados recientemente <a href="https://www.chess.com/article/view/indias-olympiad-dominance"  target="_blank"> Leer más</a> </p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="https://meridianbetsport.pe/wp-content/uploads/2024/09/gianluca-lapadula-lesionado-meridianbet-850x478.png"  height="220" alt="Lapadula">
+                          <div class="card-body">
+                            <h5 class="card-title">Estado del delantero peruano</h5>
+                            <p class="card-text">Lapadula presenta un golpe (lesión muscular) que podría significar su baja de los próximos partidos de la selección peruana frente a Uruguay y Brasil. <a href="https://www.americatv.com.pe/deportes/seleccion/seleccion-peruana-gianluca-lapadula-esta-lesionado-n446682">Leer más </a></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_general/depor/prod/calculadora-liga-1-2024-tabla-de-posiciones-resultados-pronosticos-del-futbol-peruano-torneo-apertura-clausura/img/header-desktop.jpg" alt="Depor god" height="220">
+                          <div class="card-body">
+                            <h5 class="card-title">Se viene el final de la liga 1</h5>
+                            <p class="card-text">La U lidera el campeoanto local y todo parece indicar que se viene la 28.Haz tus predicciones de los últimos partidos<a href="https://especiales.depor.com/calculadora-liga-1-2024-tabla-de-posiciones-resultados-pronosticos-del-futbol-peruano-torneo-apertura-clausura/index.html?fecha=14">Click aquí </a> </p>
+                          </div>
+                        </div>
+                      </div>
                 </article>
             </section>
         </div>
@@ -108,7 +127,8 @@
         </div>
     </footer>
     <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
+    <!--<script src="./js/popper.min.js"></script>-->
     <script src="./js/bootstrap.min.js"></script>
+    
 </body>
 </html>

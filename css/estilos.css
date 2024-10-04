@@ -1,15 +1,20 @@
 body {
-	background: #f0f3f5;
-	color: hsl(0, 0%, 100%);
+	background: #f4f7fa;
+	color: #2c3e50;
 }
 
 header {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-	background: #1b1bae;
+	flex-direction: column;
+	align-items: center;
+	background: #34495e;
 	padding: 20px;
 	margin-bottom: 20px;
+	color: #ecf0f1;
+}
+
+header h1 {
+	color: #f1c40f;
 }
 
 .contenedor-main {
@@ -23,38 +28,44 @@ header {
 	margin-bottom: 20px;
 }
 
-.widgets > div {
+.widgets>div {
 	background: #2196f3;
 	color: #fff;
 	padding: 20px;
 }
 
 .footer {
-	background-color: #55272c; 
-    padding: 20px; 
-    color: #fff; 
+	background-color: #55272c;
+	padding: 20px;
+	color: #fff;
 }
 
-.section-3{
-	background-color: rgb(94, 73, 164);
+.section-2{
+	background-color: #dfe6e9; 
+    color: #2c3e50;
+}
+
+.section-3 {
+	background-color: #a29bfe;
 	padding: 20px;
 	margin-bottom: 20px
 }
 
-.section-4{
-	background-color: rgba(182, 179, 131, 0.625);
+.section-4 {
+	background-color: #74b9ff;
 	padding: 20px;
 	margin-bottom: 20px
 }
 
-#descp{
+#descp {
 	background-color: rgba(150, 69, 69, 0.625);
 	padding: 20px;
 	margin-bottom: 20px
 }
 
-#info{
-	background-color: rgba(94, 58, 133, 0.392);
+#info {
+	background-color: #dfe6e9;
+	color: #2c3e50;
 	padding: 20px;
 	margin-bottom: 20px
 }
@@ -64,33 +75,40 @@ header {
 	text-align: center;
 }
 
-.carousel-item img{
+.carousel-item img {
 	height: 400px;
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.nav a{
+.nav a {
 	display: inline-block;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border-radius: 5px;
-    background-color: #1976d2;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.2s;
+	padding: 10px 20px;
+	margin: 0 5px;
+	border-radius: 5px;
+	background-color: #2980b9;
+	color: #fff;
+	text-decoration: none;
+	transition: background-color 0.3s, transform 0.2s;
 }
 
 nav a:hover {
-    background-color: #c0a615;
-    transform: translateY(-2px);
+	background-color: #e74c3c;
+	transform: translateY(-3px);
 }
 
-.footer span{
+.footer span {
 	display: block;
-    margin-bottom: 5px;
+	margin-bottom: 5px;
+	color: #f1c40f;
+}
+
+#personal {
+	background-color: rgba(94, 58, 133, 0.392);
+	padding: 20px;
+	margin-bottom: 20px
 }
