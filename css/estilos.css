@@ -97,7 +97,7 @@ header h1 {
 }
 
 nav a:hover {
-	background-color: #e74c3c;
+	background-color: #47adb0;
 	transform: translateY(-3px);
 }
 
@@ -108,7 +108,12 @@ nav a:hover {
 }
 
 #personal {
-	background-color: rgba(94, 58, 133, 0.392);
+	background-color: rgba(33, 31, 35, 0.392);
+	padding: 20px;
+	margin-bottom: 20px
+}
+
+#htb{
 	padding: 20px;
 	margin-bottom: 20px
 }
